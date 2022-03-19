@@ -1,5 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 1;
+    border: none;
+}
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Varela', sans-serif;
+    font-weight: 400;
+    
+}
+
+/* logo and headings */
+
+h1, h2 {
+    font-family: 'Varela', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+#logo {
+    float: left;
+    font-size: 400%;
+}
+/* Links for navigation */
+
+#navigation {
+    font-size: 120%;
+    letter-spacing: 3px;
+}
+#navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+#navigation, #logo {
+    line-height: 90px;
+}
+#navigation a:hover {
+    border:  1px solid black;
+    
+}
+
+#navigation li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
 }
