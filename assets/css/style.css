@@ -101,5 +101,45 @@ hr {
     margin: 0 auto;
     margin-top: 25px;
 }
- 
+
+/* The footer and copyright */
+footer {
+    height: 160px;
+    background-color: rgba(250, 154, 9, 0.74) ;
+    margin-top: 50px;
+    
+}
+
+.social-media-links {
+    list-style-type: none;
+    text-align: center; 
+   
+}
+.social-media-links i {
+    margin: 10%;
+    font-size: 50px;
+    color: whitesmoke;
+    padding: 2%;
+    margin-top: 20px;
+    letter-spacing: 75px;
+}   
+.social-media-links > li  {
+    display: inline-block;
+    
+}
+
+.copyright {
+    margin: 2%;
+    font-size: 20px;
+    color: darkblue;
+    padding: 1%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.copyright i {
+    color: whitesmoke;
+}
+
+
  
