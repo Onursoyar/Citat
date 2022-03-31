@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <h1 align="center"> Portfolio Project 1 </h1>
 
 [View the live project here.](https://codeinstitute.net)
@@ -14,7 +14,6 @@ I have created this website with the sole purpose of encouragin and motivating p
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the website.
-=======
 <h1 align="center">Code Institute Website</h1>
 
 [View the live project here.](https://codeinstitute.net)
@@ -30,13 +29,11 @@ This is the main marketing website for Code Institute. It is designed to be resp
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
->>>>>>> 718dd13dbb8df3dc64e2f3ec32accf69501b6f4a
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
         3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
 
     -   #### Returning Visitor Goals
 
-<<<<<<< HEAD
         1. As a Returning Visitor, I want to find information about updated and new quotes.
         2. As a Returning Visitor, I want to submit my own and new quotes, poems and motivational speeches..
         3. As a Returning Visitor, I want to find community links.
@@ -45,14 +42,14 @@ This is the main marketing website for Code Institute. It is designed to be resp
         1. As a Frequent User, I want to check to see if there are any newly added quotes, videos and more.
         2. As a Frequent User, I want to sign up to their website so that I am emailed any major updates and/or changes to the website.
 
--   ### Design
+    -  ### Design
     -   #### Colour Scheme
         -   The three main colours used are darkblue, the color rgba(250, 154, 9, 0.74) without name and smokewhite.
     -   #### Typography
         -   The Varela font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Varela is a clean font which is both attractive and appropriate.
     -   #### Videos
         -   The large, background videos is designed to be striking and catch the user's attention. It is also relevant,motivational and encouraging .
-=======
+
         1. As a Returning Visitor, I want to find information about coding challenges.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
         3. As a Returning Visitor, I want to find community links.
@@ -62,14 +59,14 @@ This is the main marketing website for Code Institute. It is designed to be resp
         2. As a Frequent User, I want to check to see if there are any new blog posts.
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
--   ### Design
+   ### Design
     -   #### Colour Scheme
         -   The two main colours used are Code Insititue red, and white.
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
->>>>>>> 718dd13dbb8df3dc64e2f3ec32accf69501b6f4a
+
 
 *   ### Wireframes
 
@@ -78,10 +75,9 @@ This is the main marketing website for Code Institute. It is designed to be resp
     -   Mobile Wireframe - [View](https://github.com/)
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
-<<<<<<< HEAD
+
     -   Balsamiq Wireframes Home-page, Quotes page and submit page - <img src="/workspace/Citat/assets/images/New Wireframe 1.png"> <img src="/workspace/Citat/assets/images/New Wireframe 2.png"><img src="/workspace/Citat/assets/images/New Wireframe 3.png">
-=======
->>>>>>> 718dd13dbb8df3dc64e2f3ec32accf69501b6f4a
+
 
 ## Features
 
@@ -98,8 +94,6 @@ This is the main marketing website for Code Institute. It is designed to be resp
 
 ### Frameworks, Libraries & Programs Used
 
-<<<<<<< HEAD
-=======
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 >>>>>>> 718dd13dbb8df3dc64e2f3ec32accf69501b6f4a
@@ -109,12 +103,12 @@ This is the main marketing website for Code Institute. It is designed to be resp
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-<<<<<<< HEAD
+
 1. [Gipod](https://gitpod.io/)
     - Gitpod was used for the mainpart of coding, testing and push through the terminal to commit to Gitpod and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-=======
+
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
@@ -123,13 +117,13 @@ This is the main marketing website for Code Institute. It is designed to be resp
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
->>>>>>> 718dd13dbb8df3dc64e2f3ec32accf69501b6f4a
+
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing
 
-<<<<<<< HEAD
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The website has also been tested through Lighthouse.
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -334,4 +328,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
->>>>>>> 718dd13dbb8df3dc64e2f3ec32accf69501b6f4a
+
