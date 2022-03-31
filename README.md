@@ -5,7 +5,7 @@
 
 I have created this website with the sole purpose of encouraging and motivating people into doing their bests and not give up through quotes and attached videos. I was inspired by the Swedish langauge and decided to name the website "CITAT", which means quote in English.
 
-<img src="/workspace/Citat/assets/images/Am-I-responsive.png">
+<img src="assets/images/Am-I-responsive.png">
 
 
 ## User Experience (UX)
