@@ -47,7 +47,7 @@ I have created this website with the sole purpose of encouraging and motivating 
 
     -   Submit Page Wireframe - [View](https://onursoyar.github.io/Citat/join.html)
 
-    -   Balsamiq Wireframes Home-page, Quotes page and submit page - <img src="/workspace/Citat/assets/images/New Wireframe 1.png"> <img src="/workspace/Citat/assets/images/New Wireframe 2.png"><img src="/workspace/Citat/assets/images/New Wireframe 3.png">
+    -   Balsamiq Wireframes Home-page, Quotes page and submit page - <img src="assets/images/New Wireframe 1.png"> <img src="assets/images/New Wireframe 2.png"><img src="assets/images/New Wireframe 3.png">
 
 
 ## Features
@@ -88,11 +88,11 @@ I have created this website with the sole purpose of encouraging and motivating 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The website has also been tested through Lighthouse.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="/workspace/Citat/assets/images/html w3.png">
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="assets/images/html w3.png">
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="/workspace/Citat/assets/images/jigsaw w3.png">
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="assets/images/jigsaw w3.png">
 
--   Lighthouse testing results : [Lighthouse] <img src="/workspace/Citat/assets/images/lighthouse.png">
+-   Lighthouse testing results : [Lighthouse] <img src="assets/images/lighthouse.png">
 
 ### Further Testing
 
