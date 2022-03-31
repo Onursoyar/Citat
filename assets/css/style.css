@@ -115,7 +115,7 @@ hr {
 .citat-text {
     color: darkblue;
     text-align: left;
-    font-size: 20px;
+    font-size: 19px;
     letter-spacing: 3px;
     line-height: 50px;
     text-transform: uppercase;
@@ -126,16 +126,14 @@ hr {
     padding: 20px;
 }
 
-.citat-text:hover {
-    color: rgba(250, 154, 9, 0.74);
-
-}
-
 .citat-video {
-    width: 75%;
-    height: 600px;
     margin: 0 auto;
     margin-top: 75px;
+    clear: both;
+    display: block;
+    width: 75%;
+    height: 600px;
+
 }
 
 /* The footer and copyright */
@@ -226,6 +224,7 @@ footer {
 .motivational-video {
     width: 75%;
     height: 600px;
+    display: block;
     padding: 40px;
     margin: 0 auto;
     clear: both;
@@ -398,15 +397,29 @@ footer {
         width: 30%;
     }
 
+
+
 }
 
 /* for medium sized screens from 600px wide and less */
 @media screen and (max-width: 600px) {
 
     .navigation li {
-        font-size: 10px;
+        font-size: 12px;
         padding: 3px;
     }
+
+    [type="submit"] {
+        font-size: 10px;
+        width: 23%;
+        height: 15px;
+        border: 2px solid darkblue;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+    }
+
 }
 
 /* for smaller screen sizes from 500px wide and less */
@@ -417,7 +430,7 @@ footer {
     }
 
     .navigation li {
-        font-size: 10px;
+        font-size: 12px;
         padding: 3px;
         margin: 0 auto
     }
