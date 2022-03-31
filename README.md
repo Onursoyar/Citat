@@ -84,7 +84,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The Website was tested on Google Chrome and other browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone Se, iPhone 12 Pro & ipad Air.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone SE, iPhone 12 Pro & ipad Air.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 
 ### Known Bugs
