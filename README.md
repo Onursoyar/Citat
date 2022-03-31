@@ -114,6 +114,7 @@ The project was deployed to GitHub Pages using the following steps...
 ### Content
 
 -   All content was written by me. I was inspired by the Love Running project and wanted to do a similar project.
+-   I have taken my readme.md file from my tutor and have edited and changed it to use it as my own readme page template. 
 
 -   The motivating speech on the home page was taken from the following website [Idoinspire](https://www.idoinspire.com/blog/bid/43449/never-give-up-on-your-dream-success-is-around-the-corner)
 
