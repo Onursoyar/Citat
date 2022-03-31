@@ -1,7 +1,7 @@
 
 <h1 align="center"> Portfolio Project 1 </h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://onursoyar.github.io/Citat/index.html)
 
 I have created this website with the sole purpose of encouraging and motivating people into doing their bests and not give up through quotes and attached videos. I was inspired by the Swedish langauge and decided to name the website "CITAT", which means quote in English.
 
@@ -41,11 +41,11 @@ I have created this website with the sole purpose of encouraging and motivating 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](https://onursoyar.github.io/Citat/index.html)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Quotes Page Wireframe - [View](https://onursoyar.github.io/Citat/quotes.html)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Submit Page Wireframe - [View](https://onursoyar.github.io/Citat/join.html)
 
     -   Balsamiq Wireframes Home-page, Quotes page and submit page - <img src="/workspace/Citat/assets/images/New Wireframe 1.png"> <img src="/workspace/Citat/assets/images/New Wireframe 2.png"><img src="/workspace/Citat/assets/images/New Wireframe 3.png">
 
@@ -88,9 +88,11 @@ I have created this website with the sole purpose of encouraging and motivating 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. The website has also been tested through Lighthouse.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
--   Lighthouse testing results : [Lighthouse] 
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="/workspace/Citat/assets/images/html w3.png">
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) <img src="/workspace/Citat/assets/images/jigsaw w3.png">
+
+-   Lighthouse testing results : [Lighthouse] <img src="/workspace/Citat/assets/images/lighthouse.png">
 
 ### Further Testing
 
