@@ -4,21 +4,21 @@
     margin: 0;
     padding: 0;
     border: none;
-    
+
 }
 
 
 body {
     font-family: 'Varela', sans-serif;
-    color: darkblue;
+    color: #14213d;
     font-weight: 400;
-    background-color: rgba(250, 154, 9, 0.74);
-    
+    background-color: white;
 }
 
 /* logo and headings */
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Varela', sans-serif;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -30,99 +30,128 @@ h1, h2 {
     float: left;
     margin-left: 75px;
     font-size: 400%;
-    height: 100px;
-    
+    height: 150px;
+
 }
+
 #logo a {
     text-decoration: none;
     color: inherit;
     letter-spacing: 5px;
-    color: whitesmoke ;
+    color: darkblue;
 }
- 
- 
+
+#logo a:hover {
+    color: rgba(250, 154, 9, 0.74);
+}
+
 
 /* navigations menu Links */
 
-#navigation {
-    font-size: 120%;
+.navigation {
+    font-size: 110%;
     letter-spacing: 3px;
     margin-right: 20px;
-    color: whitesmoke;
+    color: darkblue;
 }
-#navigation a {
+
+.navigation a {
     text-decoration: none;
-    color: inherit;
 }
-#navigation, #logo {
+
+.navigation a:hover {
+    color: rgba(250, 154, 9, 0.74);
+}
+
+.navigation,
+.logo {
     line-height: 90px;
-    
+
 
 }
-#navigation a:hover {
-    border:  1px solid darkblue;
-    
+
+.navigation a:hover {
+    border: 1px solid darkblue;
+
 }
 
-#navigation li {
+.navigation li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
-    color: whitesmoke;
+    color: rgba(250, 154, 9, 0.74);
     font-size: 30px;
 }
 
-
-
-
-/* Home image */
-
-#home-image {
-    /* image was created by me using Canva */
-    
-    height: 750px;
-    width: 100%;
-    
-  
+.active {
+    border-bottom: 3px solid darkblue;
 }
 
 
-/* Citat */
+/* Citat area */
+
+.citat {
+    color: darkblue;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 40px;
+    clear: both;
+}
+
+.citat:hover {
+    color: rgba(250, 154, 9, 0.74);
+}
 
 hr {
     border-top: 3px solid darkblue;
     width: 75%;
     margin: 0 auto;
-    
 }
-#citat {
-    color: whitesmoke;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 500px;
-    
+
+.citat-text {
+    color: darkblue;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: 75%;
+    margin: 0 auto;
+    clear: both;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.citat-text:hover {
+    color: rgba(250, 154, 9, 0.74);
+
 }
 
 .citat-video {
-    width: 1000px;
+    width: 75%;
     height: 600px;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 75px;
 }
 
 /* The footer and copyright */
 footer {
     height: 160px;
-    background-color: rgba(250, 154, 9, 0.74) ;
+    background-color: rgba(250, 154, 9, 0.74);
     margin-top: 50px;
-    
+
 }
 
 .social-media-links {
     list-style-type: none;
-    text-align: center; 
-   
+    text-align: center;
+
 }
+
 .social-media-links i {
     margin: 10%;
     font-size: 50px;
@@ -130,10 +159,11 @@ footer {
     padding: 2%;
     margin-top: 20px;
     letter-spacing: 75px;
-}   
-.social-media-links > li  {
+}
+
+.social-media-links>li {
     display: inline-block;
-    
+
 }
 
 .copyright {
@@ -151,28 +181,41 @@ footer {
 
 /* Quotes page and images */
 
-#quotes {
-    color: whitesmoke;
+.quotes {
+    color: darkblue;
     font-size: 50px;
     text-align: center;
-    margin-top: 500px;
-    
+    letter-spacing: 4px;
+    line-height: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin: 0 auto;
+    clear: both
+}
+
+.quotes:hover {
+    color: rgba(250, 154, 9, 0.74);
+}
+
+.quote-page>hr {
+    margin-top: 20px;
 }
 
 #images {
     clear: both;
     line-height: 2px;
-    
     column-count: 3;
     margin-top: 20px;
     background-repeat: no-repeat;
 
 }
-#images> img:hover {
-    border: 5px solid darkblue ;
-  }
-  
-#images > img {
+
+#images>img:hover {
+    border: 5px solid darkblue;
+}
+
+#images>img {
     width: 100%;
     padding: 5px;
 }
@@ -181,110 +224,233 @@ footer {
 /* Submit page */
 
 .motivational-video {
-    width: 1000px;
+    width: 75%;
     height: 600px;
-    margin: 0 auto;
-    margin-top: 420px;
     padding: 40px;
-    
+    margin: 0 auto;
+    clear: both;
 }
 
-#contact-form {
-    
-    text-align:center;
-    height: 550px;
+.contact-form {
+    text-align: center;
+    height: 800px;
     width: 50%;
     padding: 20px;
     color: darkblue;
-    background-color: rgba(250, 154, 9, 0.74) ;
+    background-color: rgba(250, 154, 9, 0.74);
     margin-top: 200px;
     margin: 0 auto;
-    border: 5px solid darkblue;
+    border: 5px solid;
+    border-color: rgba(250, 154, 9, 0.74);
     margin-top: 20px;
 }
-#contact-form:hover {
-    border-color: whitesmoke;
+
+.contact-form:hover {
+    border-color: darkblue;
 }
-#contact-form > p {
+
+.contact-form>p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 
 
-#contact-heading {
-    font-size: 60px;
+.contact-heading {
+    font-size: 50px;
     text-align: center;
+    margin-top: 70px;
+    color: darkblue;
+}
 
+.contact-heading:hover {
+    color: rgba(250, 154, 9, 0.74);
 }
 
 .name {
-    font-family:  'Varela', sans-serif ;
-    color:darkblue; 
-    font-size: 15px; 
+    font-family: 'Varela', sans-serif;
+    color: darkblue;
+    font-size: 15px;
     border-radius: 5px;
-    border: 4px solid darkblue; 
-    box-sizing: border-box; 
-    line-height: 25px; 
-    background-color: whitesmoke; 
+    border: 4px solid darkblue;
+    box-sizing: border-box;
+    line-height: 25px;
+    background-color: whitesmoke;
     margin-top: 25px;
-    padding: 15px; 
-    width: 50%; 
-    
+    padding: 15px;
+    width: 50%;
+
 }
-.name:focus { 
-    border: 5px solid black; 
+
+.name:focus {
+    border: 5px solid blue;
 }
 
 .email {
-    font-family:  'Varela', sans-serif ;
-    color:darkblue; 
-    font-size: 15px; 
+    font-family: 'Varela', sans-serif;
+    color: darkblue;
+    font-size: 15px;
     border-radius: 5px;
-    border: 4px solid darkblue; 
-    box-sizing: border-box; 
-    line-height: 25px; 
-    background-color: whitesmoke; 
+    border: 4px solid darkblue;
+    box-sizing: border-box;
+    line-height: 25px;
+    background-color: whitesmoke;
     margin-top: 25px;
-    padding: 15px; 
+    padding: 15px;
     width: 50%;
+}
+
+.email:focus {
+    border: 5px solid blue;
 }
 
 
 .comments {
-    font-family: 'Varela', sans-serif ;
-    color:darkblue; 
-    font-size: 15px; 
+    font-family: 'Varela', sans-serif;
+    color: darkblue;
+    font-size: 15px;
     border-radius: 5px;
-    border: 4px solid darkblue; 
-    box-sizing: border-box; 
-    line-height: 80px; 
-    background-color: whitesmoke; 
-    padding: 15px; 
-    width: 100%; 
-    margin-top: 35px; 
-    
+    border: 4px solid darkblue;
+    box-sizing: border-box;
+    line-height: 30px;
+    background-color: whitesmoke;
+    padding: 15px;
+    width: 100%;
+    margin-top: 35px;
+
 }
-.comments:focus { 
-    border: 5px solid black; 
+
+.comments:focus {
+    border: 5px solid blue;
 }
 
 [type="submit"] {
     width: 50%;
-    background-color:rgba(250, 154, 9, 0.74) ;
-    border-radius:5px;
+    background-color: rgba(250, 154, 9, 0.74);
+    border-radius: 5px;
     border: 5px solid darkblue;
-    cursor:pointer;
-    color:whitesmoke;
+    cursor: pointer;
+    color: whitesmoke;
     font-size: 30px;
-    padding-bottom:12px;
-    padding-top:12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     transition: width 2s;
-    margin-top:10px;
-    font-weight:700;
+    margin-top: 10px;
+    font-weight: 700;
 }
-[type="submit"]:hover { 
+
+[type="submit"]:hover {
     border: 5px solid whitesmoke;
     color: darkblue;
- }
+}
 
+/* media queries */
+
+/* for larger sized screens from 1400px wide and less */
+@media screen and (max-width: 1400px) {
+    #images {
+        column-count: 3;
+    }
+}
+
+
+/* for medium sized screens from 950px wide and less */
+@media screen and (max-width: 950px) {
+    #images {
+        column-count: 2;
+    }
+}
+
+/* for smaller screen sizes from 500px wide and less */
+@media screen and (max-width: 500px) {
+    #images {
+        column-count: 1;
+    }
+}
+
+/* media queries for logos, headings, comment form and navigation */
+
+/* for medium sized screens from 950px wide and less */
+@media screen and (max-width: 950px) {
+    #logo {
+        font-size: 250%;
+    }
+
+    .navigation li {
+        font-size: 20px;
+        padding: 3px;
+    }
+
+    .citat {
+        font-size: 30px;
+    }
+
+    .quotes {
+        font-size: 30px;
+    }
+
+    .contact-heading {
+        font-size: 40px;
+    }
+
+    [type="submit"] {
+        font-size: 20px;
+        width: 30%;
+    }
+
+}
+
+/* for medium sized screens from 600px wide and less */
+@media screen and (max-width: 600px) {
+
+    .navigation li {
+        font-size: 10px;
+        padding: 3px;
+    }
+}
+
+/* for smaller screen sizes from 500px wide and less */
+@media screen and (max-width: 500px) {
+    #logo {
+        font-size: 200%;
+        margin-left: 25px;
+    }
+
+    .navigation li {
+        font-size: 10px;
+        padding: 3px;
+        margin: 0 auto
+    }
+
+    .citat {
+        font-size: 18px;
+    }
+
+    .citat-text {
+        font-size: 14px;
+    }
+
+    .quotes {
+        font-size: 20px;
+    }
+
+    .contact-heading {
+        font-size: 18px;
+    }
+
+    .name {
+        font-size: 10px;
+    }
+
+    .email {
+        font-size: 9px;
+
+    }
+
+    [type="submit"] {
+        font-size: 8px;
+        width: 23%;
+        height: 10px;
+        border: 2px solid darkblue;
+    }
+}
