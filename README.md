@@ -1,11 +1,11 @@
 
 <h1 align="center"> Portfolio Project 1 </h1>
 
-[View the live project here.](https://onursoyar.github.io/Citat/index.html)
+[View the live project here.](https://onursoyar.github.io/Citat/index.html)>
 
 I have created this website with the sole purpose of encouraging and motivating people into doing their bests and not give up through quotes and attached videos. I was inspired by the Swedish langauge and decided to name the website "CITAT", which means quote in English.
 
-<h2 align="center"> <img src="/workspace/Citat/assets/images/Am-I-responsive.png"></h2>
+<img src="/workspace/Citat/assets/images/Am-I-responsive.png">
 
 
 ## User Experience (UX)
